@@ -24,6 +24,7 @@ from django.db import models, connection
 from django.db.models import F, Max
 from django.contrib.contenttypes.models import ContentType
 from django.contrib.contenttypes import generic
+import datetime
 
 try:
     from django.utils.timezone import now
